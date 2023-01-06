@@ -1,0 +1,14 @@
+[
+    {
+        "name": "About",
+        "ref": "#About"
+    },
+    {
+        "name": "Planes",
+        "ref": "#Planes"
+    },
+    {
+        "name": "Contacto",
+        "ref": "#Contacto"
+    }
+    ]
