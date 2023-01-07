@@ -1,7 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 .custom-border{
     border-radius: 81% 19% 52% 48% / 75% 66% 34% 25% ;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
 }

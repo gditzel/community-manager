@@ -5,7 +5,12 @@ module.exports = {
     './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+          'baskerville': ['Baskerville', 'sans'],
+          'montserrat': ['Montserrat', 'sans-serif'],
+      },
+    },
   },
   plugins: [require('tw-elements/dist/plugin')],
 }
