@@ -1,14 +1,52 @@
+import "../../index.css";
+
+import { useState, useEffect } from "react";
+
 import links from "../../utils/json/links.json";
 import Logo from "../../assets/imgs/Logo.jpeg";
 import Sidebar from "../sidebar/Sidebar";
 
 const Navbar = () => {
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      if (window.scrollY < lastScrollY) {
+        setShow(false);
+      } else {
+        setShow(true);
+      }
+
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
+
+      return () => {
+        window.removeEventListener("scroll", controlNavbar);
+      };
+    }
+    // eslint-disable-next-line
+  }, [lastScrollY]);
+
   return (
     <>
-      <header className="sticky top-0 left-0 right-0 z-10 items-center justify-around bg-white shadow-md md:flex">
+      <header
+        className={`sticky top-0 left-0 right-0 z-10 items-center justify-around bg-white shadow-md md:flex ${
+          show && "-top-[200px]"
+        }`}
+      >
         <div className="flex items-center justify-between">
-          <a href="/">
+          <a href="/" className="flex">
             <img className="h-32" src={Logo} alt="Logo" />
+            <h1 className="my-auto w-20 font-montserrat md:w-52 md:text-xl">
+              Marketing para tus{" "}
+              <span className="font-baskerville italic">Redes</span>
+            </h1>
           </a>
           <div className="mr-2 mb-2 flex justify-between md:absolute md:top-0 md:right-0 md:m-7">
             <div className="flex gap-3 md:hidden md:gap-10">

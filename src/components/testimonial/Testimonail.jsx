@@ -12,7 +12,7 @@ const Testimonail = () => {
     <>
       <section className="text-gray-700 md:mt-20">
         <div className="p-5">
-          <hr className="mb-2 w-8 border-2 border-pink-500"></hr>
+          <hr className="mb-2 w-12 border-2 border-pink-500"></hr>
           <h1 className="font-montserrat text-xl font-bold uppercase text-pink-500 md:text-2xl">
             Acerca de mi.
           </h1>
