@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="mt-52 mb-6 font-baskerville text-3xl font-bold text-white drop-shadow-xl xl:text-5xl">
           Crecé en tus redes sociales
         </h1>
-        <p className="mx-auto max-w-sm px-5 font-montserrat text-xl text-white drop-shadow-xl md:max-w-lg md:text-xl">
+        <p className="text-md mx-auto max-w-sm px-5 font-montserrat text-white drop-shadow-xl md:max-w-lg md:text-xl">
           Transformá tu negocio generando contenidos claves para potenciarlo en
           el mundo digital
         </p>

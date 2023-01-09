@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Plan básico",
+      "post": "1 post semanal",
+      "historia": "1 a 3 historias diarias",
+      "placa": "1 placa fechas especiales o comunicados",
+      "href": "https://wa.link/6cysjw"
+    },
+    {
+      "title": "Plan intermedio",
+      "post": "2 post semanales",
+      "historia": "3 a 6 historias diarias",
+      "reel": "1 reel mensual",
+      "placa": "2 placas fechas especiales o comunicados",
+      "href": "https://wa.link/2m7ijt",
+      "fill": "currentColor",
+      "viewBox": "0 0 20 20",
+      "aria": "true",
+      "d": "M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+    },
+    {
+      "title": "Plan premium",
+      "post": "2 post semanales",
+      "historia": "4 a 7 historias diarias",
+      "reel": "1 reel cada 15 dias",
+      "placa": "2 placas fechas especiales o comunicados",
+      "href": "https://wa.link/z5nf43",
+      "fill": "currentColor",
+      "viewBox": "0 0 20 20",
+      "aria": "true",
+      "d": "M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+    }
+]

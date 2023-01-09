@@ -7,7 +7,11 @@
     border-radius: 81% 19% 52% 48% / 75% 66% 34% 25% ;
 }
 
+.custom-border2{
+    border-radius: 40% 60% 55% 45% / 48% 87% 13% 52% 
+}
+
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 120px;
+    scroll-padding-top: 36px;
 }

@@ -43,9 +43,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <a href="/" className="flex">
             <img className="h-32" src={Logo} alt="Logo" />
-            <h1 className="my-auto w-20 font-montserrat md:w-52 md:text-xl">
+            <h1 className="my-auto w-20 font-montserrat text-gray-500 md:w-52 md:text-xl">
               Marketing para tus{" "}
-              <span className="font-baskerville italic">Redes</span>
+              <span className="font-baskerville text-2xl italic">Redes</span>
             </h1>
           </a>
           <div className="mr-2 mb-2 flex justify-between md:absolute md:top-0 md:right-0 md:m-7">

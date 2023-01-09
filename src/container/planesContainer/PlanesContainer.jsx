@@ -1,4 +1,7 @@
+import "../../index.css";
+
 import CardPlan from "../../components/cardPlan/CardPlan";
+import ListIcon from "../../utils/svg/ListIcon";
 
 const PlanesContainer = () => {
   return (
@@ -10,8 +13,23 @@ const PlanesContainer = () => {
             Planes de community manager.
           </h1>
         </div>
-        <div className="mx-5 flex grid-cols-1 justify-items-center overflow-y-hidden overflow-x-scroll md:grid md:grid-cols-2 md:overflow-x-hidden xl:grid-cols-3">
+        <div className="mx-5 grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-3">
           <CardPlan />
+        </div>
+        <div className="custom-border2 mx-auto mt-10 bg-gradient-to-r from-pink-200 via-pink-300 to-pink-200 p-5 md:w-[600px]">
+          <h1 className="text-center font-montserrat text-xl font-bold uppercase text-pink-500 md:text-2xl">
+            Publicidad para tus redes
+          </h1>
+          <div className="mt-6 font-montserrat text-pink-600 md:text-xl">
+            <div className="flex gap-1">
+              <ListIcon />
+              <p>Campañas publicitarias en Google Ads</p>
+            </div>
+            <div className="mt-4 flex gap-1">
+              <ListIcon />
+              <p>Anuncios publicitarios Meta business en Facebook</p>
+            </div>
+          </div>
         </div>
       </div>
     </>

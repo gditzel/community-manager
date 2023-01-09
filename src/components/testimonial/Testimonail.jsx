@@ -28,7 +28,7 @@ const Testimonail = () => {
                   alt=""
                 />
               </div>
-              <h4 className="mb-1 font-baskerville text-2xl font-semibold text-pink-500">
+              <h4 className="mb-1 font-baskerville text-3xl font-semibold text-pink-500">
                 Alejandra Caglia
               </h4>
               <h6 className="mb-4 font-montserrat text-pink-600">
@@ -50,9 +50,8 @@ const Testimonail = () => {
                     d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
                   ></path>
                 </svg>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                eos id officiis hic tenetur quae quaerat ad velit ab hic
-                tenetur.
+                Tengo 32 años y desde hace tiempo me inspira el mundo digital.
+                Me apasiona el social media y el storytelling.
               </p>
               <button
                 onClick={showText}
@@ -62,24 +61,34 @@ const Testimonail = () => {
               </button>
             </div>
             <div>
-              <h1 className="mt-16 mb-6 hidden translate-x-10 font-baskerville text-2xl font-semibold text-pink-500 md:block ">
+              <h1 className="mt-6 mb-6 hidden translate-x-4 font-baskerville text-2xl font-semibold text-pink-500 md:block ">
                 Mi experiencia
               </h1>
-              <p className="hidden w-96 translate-x-10 text-center font-montserrat text-pink-500 md:block">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                soluta optio esse earum porro praesentium enim quia nisi, eum
-                eius beatae debitis, dolore obcaecati, aliquam quas minima saepe
-                omnis accusamus! Accusamus ratione nam suscipit perspiciatis.
+              <p className="hidden w-96 translate-x-4 text-center font-montserrat text-pink-500 md:block">
+                Estudié Marketing en CODER HOUSE, realicé cursos de publicidad
+                en redes y también obtuve certificados de Google. Me capacité en
+                branding y growth marketing.
+                <br />
+                <br />
+                La vida me ha dado la oportunidad de trabajar y vivir del
+                marketing. Para mi, en este mundo digital que crece a pasos
+                agigantados, capacitarse constantemente es indispensable para
+                renovar y mejorar mis conocimientos
               </p>
             </div>
           </div>
         </div>
         {!openText ? (
-          <p className="mx-auto mt-10 max-w-md px-6 text-justify font-montserrat font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            soluta optio esse earum porro praesentium enim quia nisi, eum eius
-            beatae debitis, dolore obcaecati, aliquam quas minima saepe omnis
-            accusamus! Accusamus ratione nam suscipit perspiciatis.
+          <p className="mx-auto mt-10 max-w-md px-6 text-center font-montserrat font-semibold">
+            Estudié Marketing en CODER HOUSE, realicé cursos de publicidad en
+            redes y también obtuve certificados de Google. Me capacité en
+            branding y growth marketing.
+            <br />
+            <br />
+            La vida me ha dado la oportunidad de trabajar y vivir del marketing.
+            Para mi, en este mundo digital que crece a pasos agigantados,
+            capacitarse constantemente es indispensable para renovar y mejorar
+            mis conocimientos
           </p>
         ) : (
           <></>
