@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "image": "../assets/imgs/Image1.jpeg",
+        "imageAlt": "Estilo urbano",
+        "title": "Estilo urbano"
+    },
+    {
+        "id": "2",
+        "image": "../assets/imgs/Image13.jpeg",
+        "imageAlt": "Estilo urbano kids",
+        "title": "Estilo urbano kids"
+    },
+    {
+        "id": "3",
+        "image": "../assets/imgs/Image17.jpeg",
+        "imageAlt": "Estilo retrato",
+        "title": "Estilo retrato"
+    },
+    {
+        "id": "4",
+        "image": "../assets/imgs/Image24.jpeg",
+        "imageAlt": "Estilo arquitectónico",
+        "title": "Estilo arquitectónico"
+    },
+    {
+        "id": "5",
+        "image": "../assets/imgs/Image20.jpeg",
+        "imageAlt": "Estilo productos",
+        "title": "Estilo productos"
+    }
+]

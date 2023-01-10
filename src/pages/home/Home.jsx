@@ -2,6 +2,7 @@ import Hero from "../../components/hero/Hero";
 import AboutContainer from "../../container/aboutContainer/AboutContainer";
 import PlanesContainer from "../../container/planesContainer/PlanesContainer";
 import ContactoContainer from "../../container/contactoContainer/ContactoContainer";
+import ImagesContainer from "../../container/imagesContainer/ImagesContainer";
 
 const Home = () => {
   return (
@@ -14,6 +15,10 @@ const Home = () => {
 
       <section id="Planes">
         <PlanesContainer />
+      </section>
+
+      <section id="Produccion">
+        <ImagesContainer />
       </section>
 
       <section id="Contacto">

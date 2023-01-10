@@ -25,7 +25,7 @@ const Testimonail = () => {
                 <img
                   src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
                   className="w-32 rounded-full shadow-lg"
-                  alt=""
+                  alt="Foto de perfil"
                 />
               </div>
               <h4 className="mb-1 font-baskerville text-3xl font-semibold text-pink-500">
@@ -34,7 +34,7 @@ const Testimonail = () => {
               <h6 className="mb-4 font-montserrat text-pink-600">
                 Community Manager
               </h6>
-              <p className="mx-auto mb-8 w-80 px-5 font-montserrat text-pink-500">
+              <p className="mx-auto mb-8 w-80 px-5 font-montserrat text-pink-700">
                 <svg
                   aria-hidden="true"
                   focusable="false"
@@ -64,10 +64,11 @@ const Testimonail = () => {
               <h1 className="mt-6 mb-6 hidden translate-x-4 font-baskerville text-2xl font-semibold text-pink-500 md:block ">
                 Mi experiencia
               </h1>
-              <p className="hidden w-96 translate-x-4 text-center font-montserrat text-pink-500 md:block">
-                Estudié Marketing en CODER HOUSE, realicé cursos de publicidad
-                en redes y también obtuve certificados de Google. Me capacité en
-                branding y growth marketing.
+              <p className="hidden w-96 translate-x-4 text-center font-montserrat text-pink-700 md:block">
+                Estudié Marketing en una escuela virtual - CODERHOUSE. Realicé
+                cursos de publicidad en redes,rendí las evaluaciones de Google
+                para poder obtener los certificados. Me capacité en branding y
+                growth marketing.
                 <br />
                 <br />
                 La vida me ha dado la oportunidad de trabajar y vivir del
@@ -80,9 +81,10 @@ const Testimonail = () => {
         </div>
         {!openText ? (
           <p className="fade-in mx-auto mt-10 max-w-md px-6 text-center font-montserrat font-semibold">
-            Estudié Marketing en CODER HOUSE, realicé cursos de publicidad en
-            redes y también obtuve certificados de Google. Me capacité en
-            branding y growth marketing.
+            Estudié Marketing en una escuela virtual - CODERHOUSE. Realicé
+            cursos de publicidad en redes,rendí las evaluaciones de Google para
+            poder obtener los certificados. Me capacité en branding y growth
+            marketing.
             <br />
             <br />
             La vida me ha dado la oportunidad de trabajar y vivir del marketing.

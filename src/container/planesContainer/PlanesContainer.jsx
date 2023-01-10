@@ -18,9 +18,9 @@ const PlanesContainer = () => {
         </div>
         <div className="custom-border2 mx-auto mt-10 bg-gradient-to-r from-pink-200 via-pink-300 to-pink-200 p-5 md:w-[600px]">
           <h1 className="text-center font-montserrat text-xl font-bold uppercase text-pink-500 md:text-2xl">
-            Publicidad para tus redes
+            Hace crecer tu negocio
           </h1>
-          <div className="mt-6 font-montserrat text-pink-900 md:text-xl">
+          <div className="mt-4 font-montserrat text-pink-900 md:text-xl">
             <div className="flex gap-1">
               <ListIcon />
               <p>Campañas publicitarias en Google Ads</p>

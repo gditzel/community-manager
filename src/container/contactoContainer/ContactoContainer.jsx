@@ -3,6 +3,8 @@ import { useRef, useState } from "react";
 import Swal from "sweetalert2";
 
 import formulario from "../../utils/json/formulario.json";
+import Email from "../../utils/svg/Email";
+import Phone from "../../utils/svg/Phone";
 
 const ContactoContainer = () => {
   const [fields, setFields] = useState();
@@ -62,15 +64,29 @@ const ContactoContainer = () => {
 
   return (
     <>
-      <div className="mt-10 justify-evenly font-montserrat md:flex">
+      <div className="mt-10 mb-10 justify-evenly font-montserrat md:flex">
         <div className="p-5">
           <hr className="mb-2 w-12 border-2 border-pink-500"></hr>
           <h1 className="text-xl font-bold uppercase text-pink-500 md:text-2xl">
             Contactame.
           </h1>
+          <a
+            href="tel:1140896766"
+            className="mt-4 flex gap-3 text-xl font-semibold text-gray-600"
+          >
+            <Phone />
+            <span className="text-sm text-sky-900">11 4089-6766</span>
+          </a>
+          <a
+            href="mailto:byalesita.af@gmail.com"
+            className="flex gap-3 text-xl font-semibold text-gray-600"
+          >
+            <Email />
+            <span className="text-sm text-sky-900">byalesita.af@gmail.com</span>
+          </a>
           <form ref={form} onSubmit={enviarEmail}>
             {formulario.map((e) => (
-              <div className="grid md:px-10" key={e.name}>
+              <div className="mt-4 grid md:px-10" key={e.name}>
                 <label
                   htmlFor={e.name}
                   className="py-2 text-start font-medium text-pink-500"
