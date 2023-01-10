@@ -1,45 +1,21 @@
 import "../../index.css";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
+import CloseIcon from "../../utils/svg/CloseIcon";
+import HamIcon from "../../utils/svg/HamIcon";
 import links from "../../utils/json/links.json";
 import Logo from "../../assets/imgs/Logo.jpeg";
-import Sidebar from "../sidebar/Sidebar";
 
 const Navbar = () => {
-  const [show, setShow] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const [openMenu, setOpenMenu] = useState(true);
 
-  const controlNavbar = () => {
-    if (typeof window !== "undefined") {
-      if (window.scrollY < lastScrollY) {
-        setShow(false);
-      } else {
-        setShow(true);
-      }
-
-      setLastScrollY(window.scrollY);
-    }
+  const onClickMobile = () => {
+    if (openMenu ? setOpenMenu(false) : setOpenMenu(true));
   };
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", controlNavbar);
-
-      return () => {
-        window.removeEventListener("scroll", controlNavbar);
-      };
-    }
-    // eslint-disable-next-line
-  }, [lastScrollY]);
-
   return (
     <>
-      <header
-        className={`sticky top-0 left-0 right-0 z-10 items-center justify-around bg-white shadow-md md:flex ${
-          show && "-top-[200px]"
-        }`}
-      >
+      <header className="sticky top-0 left-0 right-0 z-10 items-center justify-around border-b bg-white md:flex">
         <div className="flex items-center justify-between">
           <a href="/" className="flex">
             <img className="h-32" src={Logo} alt="Logo" />
@@ -49,26 +25,48 @@ const Navbar = () => {
             </h1>
           </a>
           <div className="mr-2 mb-2 flex justify-between md:absolute md:top-0 md:right-0 md:m-7">
-            <div className="flex gap-3 md:hidden md:gap-10">
-              <Sidebar />
+            <div className="flex gap-3 md:gap-10">
+              <button
+                onClick={onClickMobile}
+                className="mt-1 text-pink-400 md:hidden"
+              >
+                {openMenu ? <HamIcon /> : <CloseIcon />}
+              </button>
             </div>
           </div>
         </div>
-
-        <div className="flex items-center justify-between">
-          <div className="hidden w-96 items-center sm:ml-6 md:block">
-            <ul className="flex justify-between uppercase text-pink-400 md:text-lg">
-              {links.map((e) => (
-                <li
-                  className="font-baskerville text-pink-400 hover:underline"
-                  key={e.name}
-                >
-                  <a href={e.ref}>{e.name}</a>
-                </li>
-              ))}
-            </ul>
+        {!openMenu ? (
+          <div className="mr-2 flex justify-between md:absolute md:top-0 md:right-0 md:m-7">
+            <div className="flex gap-3 md:hidden md:gap-10">
+              <ul className="scale-up-hor-left absolute left-0 top-0 z-20 h-screen w-2/3 bg-white text-center text-lg font-semibold md:hidden">
+                {links.map((e) => (
+                  <li
+                    key={e.name}
+                    onClick={onClickMobile}
+                    className="mt-10 text-center uppercase text-pink-400"
+                  >
+                    <a href={e.ref}>{e.name}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="flex items-center justify-between">
+            <div className="hidden w-96 items-center sm:ml-6 md:block">
+              <ul className="flex justify-between uppercase text-pink-400 md:text-lg">
+                {links.map((e) => (
+                  <li
+                    className="font-baskerville text-pink-400 hover:underline"
+                    key={e.name}
+                  >
+                    <a href={e.ref}>{e.name}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
       </header>
     </>
   );

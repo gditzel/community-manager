@@ -3,7 +3,7 @@ import "../../index.css";
 const Hero = () => {
   return (
     <>
-      <div className="mb-10 -mt-[300px] h-screen -skew-y-3 bg-gradient-to-r from-pink-400 via-pink-300 to-pink-400"></div>
+      <div className="mb-10 -mt-[300px] h-[700px] -skew-y-3 bg-gradient-to-r from-pink-400 via-pink-300 to-pink-400"></div>
       <div className="min-h-96 absolute top-0 right-0 left-0 text-center">
         <h1 className="mt-52 mb-6 font-baskerville text-3xl font-bold text-white drop-shadow-xl xl:text-5xl">
           Crecé en tus redes sociales

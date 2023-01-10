@@ -55,7 +55,7 @@ const Testimonail = () => {
               </p>
               <button
                 onClick={showText}
-                className="absolute right-0 left-0 mx-auto -mt-6 w-36 rounded-full border-2 border-pink-600 py-2 font-bold text-pink-600 md:hidden md:text-lg"
+                className="absolute right-0 left-0 mx-auto -mt-6 w-36 rounded-full border-2 border-pink-600 py-2 font-bold text-pink-600 md:hidden md:text-lg "
               >
                 Mi experiencia
               </button>
@@ -79,7 +79,7 @@ const Testimonail = () => {
           </div>
         </div>
         {!openText ? (
-          <p className="mx-auto mt-10 max-w-md px-6 text-center font-montserrat font-semibold">
+          <p className="fade-in mx-auto mt-10 max-w-md px-6 text-center font-montserrat font-semibold">
             Estudié Marketing en CODER HOUSE, realicé cursos de publicidad en
             redes y también obtuve certificados de Google. Me capacité en
             branding y growth marketing.

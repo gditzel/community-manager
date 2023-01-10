@@ -20,7 +20,7 @@ const PlanesContainer = () => {
           <h1 className="text-center font-montserrat text-xl font-bold uppercase text-pink-500 md:text-2xl">
             Publicidad para tus redes
           </h1>
-          <div className="mt-6 font-montserrat text-pink-600 md:text-xl">
+          <div className="mt-6 font-montserrat text-pink-900 md:text-xl">
             <div className="flex gap-1">
               <ListIcon />
               <p>Campañas publicitarias en Google Ads</p>
