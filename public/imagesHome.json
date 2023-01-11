@@ -98,37 +98,77 @@
     },
     {
         "id": "20",
+        "image": "../assets/imgs/Image27.jpeg",
+        "imageAlt": "Estilo retrato"
+    },
+    {
+        "id": "21",
+        "image": "../assets/imgs/Image28.jpeg",
+        "imageAlt": "Estilo retrato"
+    },
+    {
+        "id": "22",
+        "image": "../assets/imgs/Image29.jpeg",
+        "imageAlt": "Estilo retrato"
+    },
+    {
+        "id": "23",
+        "image": "../assets/imgs/Image30.jpeg",
+        "imageAlt": "Estilo retrato"
+    },
+    {
+        "id": "24",
+        "image": "../assets/imgs/Image31.jpeg",
+        "imageAlt": "Estilo retrato"
+    },
+    {
+        "id": "25",
         "image": "../assets/imgs/Image24.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
-        "id": "21",
+        "id": "26",
         "image": "../assets/imgs/Image25.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
-        "id": "22",
+        "id": "27",
         "image": "../assets/imgs/Image22.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
-        "id": "23",
+        "id": "28",
         "image": "../assets/imgs/Image26.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
-        "id": "24",
+        "id": "29",
         "image": "../assets/imgs/Image20.jpeg",
         "imageAlt": "Estilo productos"
     },
     {
-        "id": "25",
+        "id": "30",
+        "image": "../assets/imgs/Image33.jpeg",
+        "imageAlt": "Estilo productos"
+    },
+    {
+        "id": "31",
+        "image": "../assets/imgs/Image12.jpeg",
+        "imageAlt": "Estilo productos"
+    },
+    {
+        "id": "32",
+        "image": "../assets/imgs/Image32.jpeg",
+        "imageAlt": "Estilo productos"
+    },
+    {
+        "id": "33",
         "image": "../assets/imgs/Image16.jpeg",
         "imageAlt": "Estilo productos"
     },
     {
-        "id": "26",
-        "image": "../assets/imgs/Image12.jpeg",
+        "id": "34",
+        "image": "../assets/imgs/Image34.jpeg",
         "imageAlt": "Estilo productos"
     }
 ]

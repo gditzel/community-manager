@@ -1,0 +1,14 @@
+[
+    {
+        "image": "../assets/imgs/rouge.jpeg",
+        "imageAlt": "Tienda Rouge"
+    },
+    {
+        "image": "../assets/imgs/reyes.jpeg",
+        "imageAlt": "Tienda Reyes y Reinas"
+    },
+    {
+        "image": "../assets/imgs/ichimei.jpeg",
+        "imageAlt": "Tienda Ichimei"
+    }
+]

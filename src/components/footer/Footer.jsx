@@ -25,6 +25,16 @@ const Footer = () => {
             rel="noopener noreferrer"
           />
           <SocialIcon
+            url="https://www.tiktok.com/es/"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+          <SocialIcon
+            url="https://www.linkedin.com/feed/"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+          <SocialIcon
             url="https://api.whatsapp.com/send?phone=541140896766"
             target="_blank"
             rel="noopener noreferrer"

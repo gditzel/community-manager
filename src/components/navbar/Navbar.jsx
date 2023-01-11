@@ -40,13 +40,16 @@ const Navbar = () => {
           <div className="mr-2 flex justify-between md:absolute md:top-0 md:right-0 md:m-7">
             <div className="flex gap-3 md:hidden md:gap-10">
               <ul className="scale-up-hor-left absolute left-0 top-0 z-20 h-screen w-2/3 bg-white text-center text-lg font-semibold md:hidden">
+                <li className="mt-10 text-center font-baskerville uppercase text-pink-400">
+                  <a href="/">Inicio</a>
+                </li>
                 {links.map((e) => (
                   <li
                     key={e.name}
                     onClick={onClickMobile}
-                    className="mt-10 text-center uppercase text-pink-400"
+                    className="mt-10 text-center font-baskerville uppercase text-pink-400"
                   >
-                    <a href={e.ref}>{e.name}</a>
+                    <HashLink to={`/${e.ref}`}>{e.name}</HashLink>
                   </li>
                 ))}
               </ul>

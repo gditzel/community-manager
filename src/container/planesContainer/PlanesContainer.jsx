@@ -13,7 +13,7 @@ const PlanesContainer = () => {
             Planes de community manager.
           </h1>
         </div>
-        <div className="mx-5 grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-3">
+        <div className="mx-5 flex flex-wrap justify-evenly">
           <CardPlan />
         </div>
         <div className="custom-border2 mx-auto mt-10 bg-gradient-to-r from-pink-200 via-pink-300 to-pink-200 p-5 md:w-[600px]">
