@@ -1,105 +1,133 @@
 [
     {
+        "id": "1",
         "image": "../assets/imgs/Image1.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "2",
+
         "image": "../assets/imgs/Image2.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "3",
+
         "image": "../assets/imgs/Image5.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "4",
         "image": "../assets/imgs/Image6.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "5",
         "image": "../assets/imgs/Image14.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "6",
         "image": "../assets/imgs/Image3.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "7",
         "image": "../assets/imgs/Image9.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "8",
         "image": "../assets/imgs/Image8.jpeg",
         "imageAlt": "Estilo urbano"
     },
     {
+        "id": "9",
         "image": "../assets/imgs/Image23.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "10",
         "image": "../assets/imgs/Image4.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "11",
         "image": "../assets/imgs/Image7.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "12",
         "image": "../assets/imgs/Image10.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "13",
         "image": "../assets/imgs/Image11.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "14",
         "image": "../assets/imgs/Image13.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "15",
         "image": "../assets/imgs/Image21.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "16",
         "image": "../assets/imgs/Image15.jpeg",
         "imageAlt": "Estilo urbano kids"
     },
     {
+        "id": "17",
         "image": "../assets/imgs/Image17.jpeg",
         "imageAlt": "Estilo retrato"
     },
     {
+        "id": "18",
         "image": "../assets/imgs/Image18.jpeg",
         "imageAlt": "Estilo retrato"
     },
     {
+        "id": "19",
         "image": "../assets/imgs/Image19.jpeg",
         "imageAlt": "Estilo retrato"
     },
     {
+        "id": "20",
         "image": "../assets/imgs/Image24.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
+        "id": "21",
         "image": "../assets/imgs/Image25.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
+        "id": "22",
         "image": "../assets/imgs/Image22.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
+        "id": "23",
         "image": "../assets/imgs/Image26.jpeg",
         "imageAlt": "Estilo arquitectónico"
     },
     {
+        "id": "24",
         "image": "../assets/imgs/Image20.jpeg",
         "imageAlt": "Estilo productos"
     },
     {
+        "id": "25",
         "image": "../assets/imgs/Image16.jpeg",
         "imageAlt": "Estilo productos"
     },
     {
+        "id": "26",
         "image": "../assets/imgs/Image12.jpeg",
         "imageAlt": "Estilo productos"
     }

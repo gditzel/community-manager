@@ -71,7 +71,9 @@ const ContactoContainer = () => {
             Contactame.
           </h1>
           <a
-            href="tel:1140896766"
+            href="https://api.whatsapp.com/send?phone=541140896766"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-4 flex gap-3 text-xl font-semibold text-gray-600"
           >
             <Phone />

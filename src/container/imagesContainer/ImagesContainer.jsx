@@ -11,7 +11,7 @@ const ImagesContainer = () => {
         <h1 className="text-xl font-bold uppercase text-pink-500 md:text-2xl">
           Produccion de fotos y videos.
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
+        <div className="mt-8 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
           <video
             controls
             autoPlay
@@ -22,22 +22,20 @@ const ImagesContainer = () => {
             <source src={Video} type="video/mp4" />
           </video>
           {imagesHome.map((e) => (
-            <>
-              <div className="my-auto mx-auto" key={e.id}>
-                <button>
-                  <Link to={`/Production/${e.imageAlt}`}>
-                    <img
-                      src={e.image}
-                      alt={e.imageAlt}
-                      className="h-[400px] rounded-full"
-                    />
-                    <h2 className="mt-2 pb-8 text-center font-montserrat text-lg font-semibold text-pink-600 md:pb-0">
-                      {e.title}
-                    </h2>
-                  </Link>
-                </button>
-              </div>
-            </>
+            <div className="my-auto mx-auto" key={e.id}>
+              <button>
+                <Link to={`/Production/${e.imageAlt}`}>
+                  <img
+                    src={e.image}
+                    alt={e.imageAlt}
+                    className="h-[400px] rounded-full"
+                  />
+                  <h2 className="mt-2 pb-8 text-center font-montserrat text-lg font-semibold text-pink-600 md:pb-0">
+                    {e.title}
+                  </h2>
+                </Link>
+              </button>
+            </div>
           ))}
         </div>
       </div>

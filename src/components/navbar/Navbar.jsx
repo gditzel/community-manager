@@ -6,6 +6,7 @@ import CloseIcon from "../../utils/svg/CloseIcon";
 import HamIcon from "../../utils/svg/HamIcon";
 import links from "../../utils/json/links.json";
 import Logo from "../../assets/imgs/Logo.jpeg";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(true);
@@ -53,14 +54,17 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="flex items-center justify-between">
-            <div className="hidden w-96 items-center sm:ml-6 md:block">
+            <div className="hidden items-center sm:ml-6 md:block">
               <ul className="flex justify-between uppercase text-pink-400 md:text-lg">
+                <li className="mr-6 font-baskerville text-pink-400 hover:underline">
+                  <a href="/">Inicio</a>
+                </li>
                 {links.map((e) => (
                   <li
-                    className="font-baskerville text-pink-400 hover:underline"
+                    className="mr-6 font-baskerville text-pink-400 hover:underline"
                     key={e.name}
                   >
-                    <a href={e.ref}>{e.name}</a>
+                    <HashLink to={`/${e.ref}`}>{e.name}</HashLink>
                   </li>
                 ))}
               </ul>
