@@ -17,7 +17,11 @@ const ProductionsContainer = () => {
         .filter((prod) => prod.imageAlt === idProduction)
         .map((e) => (
           <div key={e.id}>
-            <img src={e.image} alt={e.imageAlt} className="h-[634px]" />
+            <img
+              src={e.image}
+              alt={e.imageAlt}
+              className="h-[640px] object-cover"
+            />
           </div>
         ))}
     </div>

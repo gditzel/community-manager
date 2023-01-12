@@ -4,11 +4,11 @@ import Logo from "../../assets/imgs/LogoBG.png";
 const Footer = () => {
   return (
     <>
-      <div className="justify-center gap-10 bg-gray-100 md:flex">
+      <div className="justify-center gap-10 bg-gray-200 md:flex">
         <div>
           <a href="/" className="flex justify-center">
             <img className="h-32" src={Logo} alt="Logo" />
-            <h1 className="w-30 my-auto w-40 font-montserrat text-gray-500 md:w-full md:text-xl">
+            <h1 className="w-30 my-auto w-40 font-montserrat md:w-full md:text-xl">
               Seguime en mis redes!
             </h1>
           </a>
@@ -41,7 +41,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <span className="my-auto block  bg-gray-100 py-4 text-center text-sm text-gray-500 dark:text-gray-400">
+      <span className="my-auto block bg-gray-200 py-4 text-center text-sm">
         © All Rights Reserved.
       </span>
     </>

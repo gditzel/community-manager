@@ -16,6 +16,7 @@ html {
     scroll-padding-top: 140px;
 }
 
+
 @layer base {
     input[type="number"]::-webkit-inner-spin-button,
     input[type="number"]::-webkit-outer-spin-button {
