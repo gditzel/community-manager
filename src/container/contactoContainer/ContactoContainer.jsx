@@ -138,7 +138,7 @@ const ContactoContainer = () => {
               Si algo saliera mal, es bueno para frenar, pensar y replantearse
               una nueva forma de seguir, escuchando las opiniones de otros y
               aprendiendo de ello. Siempre hay que sacar de lo malo lo mejor y
-              seguir adelante para tener un crecimiento laborarl y personal"
+              seguir adelante para tener un crecimiento laborarl y personal."
             </p>
           </div>
         </div>

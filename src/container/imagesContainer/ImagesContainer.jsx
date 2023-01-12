@@ -17,24 +17,27 @@ const ImagesContainer = () => {
             autoPlay
             loop
             muted
-            className="h-[640px] shadow-xl md:mr-5"
+            className="h-[490px] shadow-xl sm:h-[640px] md:mr-5"
           >
             <source src={Video} type="video/mp4" />
           </video>
           {imagesHome.map((e) => (
-            <div className="" key={e.id}>
-              <button>
-                <Link to={`/Production/${e.imageAlt}`}>
-                  <img
-                    src={e.image}
-                    alt={e.imageAlt}
-                    className="h-[640px] max-w-sm object-cover shadow-xl"
-                  />
-                  {/* <h2 className="mt-2 text-center font-montserrat text-lg font-semibold drop-shadow-2xl hover:underline">
+            <div className="mt-6 md:mt-0" key={e.id}>
+              <Link to={`/Production/${e.imageAlt}`}>
+                <h2 className="mt-2 text-center font-montserrat text-lg font-semibold drop-shadow-2xl hover:underline md:hidden">
+                  {e.title}
+                </h2>
+                <div className="flex justify-center">
+                  <h2 className="absolute -z-20 mt-40 hidden font-montserrat text-2xl font-bold md:block">
                     {e.title}
-                  </h2> */}
-                </Link>
-              </button>
+                  </h2>
+                </div>
+                <img
+                  src={e.image}
+                  alt={e.imageAlt}
+                  className="h-[640px] max-w-sm object-cover px-10 sm:px-0 md:hover:opacity-60"
+                />
+              </Link>
             </div>
           ))}
         </div>

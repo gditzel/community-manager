@@ -5,7 +5,7 @@ import { useState } from "react";
 import CloseIcon from "../../utils/svg/CloseIcon";
 import HamIcon from "../../utils/svg/HamIcon";
 import links from "../../utils/json/links.json";
-import Logo from "../../assets/imgs/Logo.jpeg";
+import Logo from "../../assets/imgs/Logonavb.jpeg";
 import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {

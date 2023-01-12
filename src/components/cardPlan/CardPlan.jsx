@@ -84,7 +84,7 @@ const CardPlan = () => {
               </span>
             </li>
           </ul>
-          <div className="text-center">
+          <div className="mb-6 text-center">
             <a
               href={e.href}
               target="_blank"

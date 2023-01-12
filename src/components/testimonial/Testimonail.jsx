@@ -32,10 +32,10 @@ const Testimonail = () => {
                 <h4 className="mb-1 font-baskerville text-3xl font-semibold drop-shadow-2xl">
                   Alejandra Caglia
                 </h4>
-                <h6 className="mb-4 font-montserrat drop-shadow-xl">
+                <h6 className="mb-4 font-montserrat font-medium drop-shadow-xl">
                   Community Manager
                 </h6>
-                <p className="mx-auto mb-8 w-80 px-5 font-montserrat drop-shadow-2xl">
+                <p className="mx-auto mb-8 w-80 px-5 font-montserrat font-medium drop-shadow-2xl">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -65,7 +65,7 @@ const Testimonail = () => {
                 <h1 className="mt-6 mb-6 hidden translate-x-4 font-baskerville text-2xl font-semibold drop-shadow-2xl md:block">
                   Mi experiencia
                 </h1>
-                <p className="hidden w-96 translate-x-4 text-center font-montserrat drop-shadow-2xl md:block">
+                <p className="hidden w-96 translate-x-4 text-center font-montserrat font-medium drop-shadow-2xl md:block">
                   Estudié Marketing en una escuela virtual - CODERHOUSE. Realicé
                   cursos de publicidad en redes, rendí las evaluaciones de
                   Google para poder obtener los certificados. Me capacité en
@@ -75,7 +75,7 @@ const Testimonail = () => {
                   La vida me ha dado la oportunidad de trabajar y vivir del
                   marketing. Para mi, en este mundo digital que crece a pasos
                   agigantados, capacitarse constantemente es indispensable para
-                  renovar y mejorar mis conocimientos
+                  renovar y mejorar mis conocimientos.
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Testimonail = () => {
             La vida me ha dado la oportunidad de trabajar y vivir del marketing.
             Para mi, en este mundo digital que crece a pasos agigantados,
             capacitarse constantemente es indispensable para renovar y mejorar
-            mis conocimientos
+            mis conocimientos.
           </p>
         ) : (
           <></>

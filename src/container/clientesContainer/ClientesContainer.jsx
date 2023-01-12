@@ -7,7 +7,7 @@ const ClientesContainer = () => {
         <div className="p-5">
           <hr className="mb-2 w-12 border-2 border-black"></hr>
           <h1 className="font-montserrat text-xl font-bold uppercase md:text-2xl">
-            Algunos de los clientes que confian en mi.
+            Algunos clientes que confian en mi.
           </h1>
         </div>
         <div className="flex flex-wrap justify-evenly md:mt-10">
