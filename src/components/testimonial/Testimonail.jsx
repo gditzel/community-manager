@@ -1,5 +1,7 @@
-import { useState } from "react";
 import "../../index.css";
+import { useState } from "react";
+
+import FotoPerfil2 from "../../assets/imgs/FotoPerfil2.jpg";
 
 const Testimonail = () => {
   const [openText, setOpenText] = useState(true);
@@ -10,22 +12,19 @@ const Testimonail = () => {
 
   return (
     <>
-      <section className="md:mt-20">
-        <div className="p-5">
-          <hr className="mb-2 w-12 border-2 border-black"></hr>
-          <h1 className="font-montserrat text-xl font-bold uppercase md:text-2xl">
-            Acerca de mi.
-          </h1>
-        </div>
+      <section>
+        <h1 className="-skew-y-3 bg-black p-2 text-center font-montserrat text-xl font-bold uppercase text-white md:text-2xl">
+          Acerca de mi
+        </h1>
 
-        <div className="flex justify-center text-center">
+        <div className="mt-10 flex justify-center text-center md:mt-20">
           <div className="custom-border flex bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200">
             <div className="flex">
               <div className="drop-shadow-2xl">
                 <div className="mb-6 flex justify-center">
                   <img
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
-                    className="w-32 rounded-full shadow-lg"
+                    src={FotoPerfil2}
+                    className="rounded-full object-cover shadow-lg"
                     alt="Foto de perfil"
                   />
                 </div>

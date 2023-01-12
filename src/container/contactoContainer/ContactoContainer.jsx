@@ -110,12 +110,12 @@ const ContactoContainer = () => {
               ))}
 
               <div className="grid pb-10 md:px-10">
-                <label htmlFor="msg2" className="py-2 text-start font-medium">
+                <label htmlFor="msg" className="py-2 text-start font-medium">
                   Dejanos tu consulta en la caja de comentarios
                 </label>
                 <textarea
-                  name="msg2"
-                  id="msg2"
+                  name="msg"
+                  id="msg"
                   cols="30"
                   rows="10"
                   className="border border-black bg-gray-50"

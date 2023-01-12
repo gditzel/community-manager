@@ -18,11 +18,11 @@ const Home = () => {
         <ClientesContainer />
       </section>
 
-      <section id="Planes">
+      <section id="Servicios">
         <PlanesContainer />
       </section>
 
-      <section id="Produccion">
+      <section>
         <ImagesContainer />
       </section>
 

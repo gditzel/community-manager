@@ -20,17 +20,17 @@ const Footer = () => {
             rel="noopener noreferrer"
           />
           <SocialIcon
-            url="https://www.facebook.com/gonza.ditzel/"
+            url="https://www.facebook.com/ale.caglia.9"
             target="_blank"
             rel="noopener noreferrer"
           />
           <SocialIcon
-            url="https://www.tiktok.com/es/"
+            url="https://www.tiktok.com/@alecaglia"
             target="_blank"
             rel="noopener noreferrer"
           />
           <SocialIcon
-            url="https://www.linkedin.com/feed/"
+            url="https://www.linkedin.com/in/ale-caglia-123b7725a/"
             target="_blank"
             rel="noopener noreferrer"
           />

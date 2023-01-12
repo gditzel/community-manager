@@ -6,9 +6,9 @@ import Video from "../../assets/imgs/Video.mp4";
 const ImagesContainer = () => {
   return (
     <>
-      <div className="mt-10 px-5 md:mt-40">
+      <div className="mt-10 px-5 md:mt-20">
         <hr className="mb-2 w-12 border-2 border-black"></hr>
-        <h1 className="text-xl font-bold uppercase md:text-2xl">
+        <h1 className="text-xl font-bold uppercase">
           Produccion de fotos y videos.
         </h1>
         <div className="mt-8 flex flex-wrap justify-center gap-1">

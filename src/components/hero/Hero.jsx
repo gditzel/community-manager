@@ -3,8 +3,7 @@ import "../../index.css";
 const Hero = () => {
   return (
     <>
-      <div className="mb-10 -mt-[300px] h-[700px] -skew-y-3 bg-gradient-to-r from-gray-300 via-gray-100 to-gray-300"></div>
-      {/* <div className="mb-10 -mt-[300px] h-[700px]"></div> */}
+      <div className="-mt-[300px] h-[700px] -skew-y-3 bg-gradient-to-r from-gray-300 via-gray-100 to-gray-300"></div>
       <div className="min-h-96 absolute top-0 right-0 left-0 text-center">
         <h1 className="mt-52 mb-6 font-baskerville text-3xl font-bold drop-shadow-xl xl:text-5xl">
           Crecé en redes sociales

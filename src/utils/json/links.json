@@ -4,12 +4,8 @@
         "ref": "#Clientes"
     },
     {
-        "name": "Planes",
-        "ref": "#Planes"
-    },
-    {
-        "name": "Produccion",
-        "ref": "#Produccion"
+        "name": "Servicios",
+        "ref": "#Servicios"
     },
     {
         "name": "Contacto",
