@@ -34,10 +34,10 @@ const ContactoContainer = () => {
 
     emailjs
       .sendForm(
-        "service_hjhmq3t",
-        "template_ycb4819",
+        "service_doyw0l4",
+        "template_0nmff6r",
         form.current,
-        "AIb21sO4WASqiL1oy"
+        "3xFZ4ikI9Crf0K8VR"
       )
       .then(
         (result) => {

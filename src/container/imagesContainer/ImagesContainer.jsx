@@ -17,7 +17,7 @@ const ImagesContainer = () => {
             autoPlay
             loop
             muted
-            className="h-[490px] shadow-xl sm:h-[640px] md:mr-5"
+            className="h-[490px] shadow-xl sm:h-[640px] md:ml-[11px] md:mr-[11px]"
           >
             <source src={Video} type="video/mp4" />
           </video>

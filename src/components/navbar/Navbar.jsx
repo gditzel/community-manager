@@ -6,14 +6,20 @@ import CloseIcon from "../../utils/svg/CloseIcon";
 import HamIcon from "../../utils/svg/HamIcon";
 import links from "../../utils/json/links.json";
 import Logo from "../../assets/imgs/Logonavb.jpeg";
-import { HashLink } from "react-router-hash-link";
+import { NavHashLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+
+  console.log(location.hash);
+
   const [openMenu, setOpenMenu] = useState(true);
 
   const onClickMobile = () => {
     if (openMenu ? setOpenMenu(false) : setOpenMenu(true));
   };
+
   return (
     <>
       <header className="sticky top-0 left-0 right-0 z-10 items-center justify-around border-b bg-white md:flex">
@@ -46,7 +52,7 @@ const Navbar = () => {
                     onClick={onClickMobile}
                     className="mt-10 text-center font-baskerville uppercase"
                   >
-                    <HashLink to={`/${e.ref}`}>{e.name}</HashLink>
+                    <NavHashLink to={`/${e.ref}`}>{e.name}</NavHashLink>
                   </li>
                 ))}
               </ul>
@@ -64,7 +70,7 @@ const Navbar = () => {
                     className="mr-6 font-baskerville hover:underline"
                     key={e.name}
                   >
-                    <HashLink to={`/${e.ref}`}>{e.name}</HashLink>
+                    <NavHashLink to={`/${e.ref}`}>{e.name}</NavHashLink>
                   </li>
                 ))}
               </ul>

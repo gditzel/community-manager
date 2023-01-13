@@ -20,7 +20,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           />
           <SocialIcon
-            url="https://www.facebook.com/ale.caglia.9"
+            url="https://www.facebook.com/profile.php?id=100082014647121"
             target="_blank"
             rel="noopener noreferrer"
           />
