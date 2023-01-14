@@ -6,14 +6,9 @@ import CloseIcon from "../../utils/svg/CloseIcon";
 import HamIcon from "../../utils/svg/HamIcon";
 import links from "../../utils/json/links.json";
 import Logo from "../../assets/imgs/Logonavb.jpeg";
-import { NavHashLink } from "react-router-hash-link";
-import { useLocation } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
-  const location = useLocation();
-
-  console.log(location.hash);
-
   const [openMenu, setOpenMenu] = useState(true);
 
   const onClickMobile = () => {
@@ -52,7 +47,7 @@ const Navbar = () => {
                     onClick={onClickMobile}
                     className="mt-10 text-center font-baskerville uppercase"
                   >
-                    <NavHashLink to={`/${e.ref}`}>{e.name}</NavHashLink>
+                    <Link to={`/${e.ref}`}>{e.name}</Link>
                   </li>
                 ))}
               </ul>
@@ -70,7 +65,7 @@ const Navbar = () => {
                     className="mr-6 font-baskerville hover:underline"
                     key={e.name}
                   >
-                    <NavHashLink to={`/${e.ref}`}>{e.name}</NavHashLink>
+                    <Link to={`/${e.ref}`}>{e.name}</Link>
                   </li>
                 ))}
               </ul>

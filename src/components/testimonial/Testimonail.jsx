@@ -1,7 +1,7 @@
 import "../../index.css";
 import { useState } from "react";
 
-import FotoPerfil2 from "../../assets/imgs/FotoPerfil2.jpg";
+import FotoPerfil from "../../assets/imgs/FotoPerfil.jpg";
 
 const Testimonail = () => {
   const [openText, setOpenText] = useState(true);
@@ -23,7 +23,7 @@ const Testimonail = () => {
               <div className="drop-shadow-2xl">
                 <div className="mb-6 flex justify-center">
                   <img
-                    src={FotoPerfil2}
+                    src={FotoPerfil}
                     className="rounded-full object-cover shadow-lg"
                     alt="Foto de perfil"
                   />
